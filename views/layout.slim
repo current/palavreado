@@ -1,6 +1,13 @@
 doctype 5
 html
   head
+    meta property='og:site_name' content="palavreado.com"
+    meta property='og:title' content="Palavreado"
+    meta property='og:description' content="Aprenda uma nova palavra"
+    meta property='og:image' content="http://palavreado.com/images/icon.png"
+    meta property='og:type' content="website"
+    meta property='og:url' content="http://palavreado.com"
+
     link rel='stylesheet' href='/stylesheets/reset.css' type='text/css' media="screen, projection"
     link rel='stylesheet' href='/stylesheets/application.css' type='text/css' media="screen, projection"
 
@@ -11,7 +18,7 @@ html
 
     title
       - if word
-        | #{word} - 
+        | #{word} -
       | Palavreado.com, aprenda uma nova palavra
 
   body
@@ -23,15 +30,15 @@ html
     == yield
 
     footer
-      | &copy 2011 
+      | &copy 2011
       a href="http://rafaelmasoni.com" Rafael Masoni
-      |  &amp; 
+      |  &amp;
       a href="http://bolodefoobar.blogspot.com" Daniel Libanori
-      |  · 
+      |  ·
       a href="http://twitter.com/PALAVREADOcom" Twitter
-      | , 
+      | ,
       a href="http://facebook.com/Palavreado" Facebook
-      |  · 
+      |  ·
       a href="/about" Sobre
     javascript:
       var _gaq = _gaq || [];
