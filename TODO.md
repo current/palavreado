@@ -8,3 +8,4 @@
 2. instalar New Relic
 3. enviar 304
 3. arrumar Markdown (problemas com rdiscount)
+3. adicionar rss
