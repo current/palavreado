@@ -3,6 +3,7 @@
 0. CACHE!
 0. botão Like
 0. botão Follow
+0. botão +1
 0. créditos em palavras sugeridas
 0. botão que leva a uma palavra aleatória
 1. badge na última palavra
