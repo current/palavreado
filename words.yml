@@ -299,3 +299,10 @@ analogia:
   description: "Método usado para explicar uma certa situação usando outra situação semelhante."
   examples:
     - "O professor fez uso de analogias para explicar a teoria da evolução."
+
+setentrional:
+  syllables: [se, ten, trio, nal]
+  stress: 3
+  description: "Situado no norte, relativo ao setentrião (vento do norte)."
+  examples:
+    - "Nossa viagem terminou no Egito, que fica na África Setentrional."
